@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
-# title			:fake-sshd.py
-# description	:This script is a fake ssh server logging authentication (login/password) requests.
-# author		:Benoit MAUDET
-# date			:20170101
-# version		:0.1
-# usage			:python fake-sshd.py
-# notes			:requires: apt install python-setuptools python-pip python-dev gcc & pip install paramiko python-gssapi
-# notes			:to generate rsa_ssh: ssh-keygen rsa
+# title			    :fake-sshd.py
+# description	    :This script is a fake ssh server logging authentication (login/password or public key) requests.
+# author		    :Benoit MAUDET
+# date			    :20170101
+# version		    :0.1
+# usage			    :python fake-sshd.py
+# notes			    :requires: apt install python-setuptools python-pip python-dev gcc & pip install paramiko python-gssapi
+# notes			    :to generate rsa_ssh: ssh-keygen rsa
 
 import socket
 import threading
